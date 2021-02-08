@@ -15,8 +15,8 @@ button1.addEventListener("click", function(){
 })
     
 button3.addEventListener("click", function(){
-  num ++;
-  h1.style.fontSize = num + "5px";
+  num2 ++;
+  h1.style.fontSize = num2 + "px";
 })
 
 
