@@ -26,3 +26,15 @@ button2.addEventListener("click", function(){
 })
 
 
+button4.addEventListener("click", function(){
+  num ++;
+  h1.innerText = num;
+
+})
+
+button5.addEventListener("click", function(){
+  num --;
+  h1.innerText = num;
+})
+
+
