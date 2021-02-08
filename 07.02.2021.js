@@ -6,7 +6,17 @@ let button5 = document.querySelector(".button5");
 let h1 = document.querySelector("h1");
 
 
+h1.innerText = 0;
+let num = 0;
+let num2 = 32;
+
 button1.addEventListener("click", function(){
     h1.style.color = '#' + (Math.random().toString(16) + '000000').substring(2,8).toUpperCase();
 })
     
+button3.addEventListener("click", function(){
+  num ++;
+  h1.style.fontSize = num + "5px";
+})
+
+
