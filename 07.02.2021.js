@@ -20,3 +20,9 @@ button3.addEventListener("click", function(){
 })
 
 
+button2.addEventListener("click", function(){
+  num2 --;
+  h1.style.fontSize = num2 + "px";
+})
+
+
